@@ -1,0 +1,2 @@
+# Carlos Perez's Personal Website
+This web page is intended to display all the relevant information for a recruiter. The page will contain all my projects including future ones. It will also include all my contact information so you can contact me or look at my social networks. Finally, this page will be updated as I gain more experience and better knowledge in the world of technology.
