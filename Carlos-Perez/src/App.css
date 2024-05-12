@@ -1,3 +1,172 @@
-.justify-content-center {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white; 
+  font-family: Arial, sans-serif;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+.intro h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 200px;
+  font-size: 50px;
+}
+.intro h3 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 5px;
+}
+.intro h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.intro .buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+.intro .button {
+  background-color: transparent;
+  border: 2px solid aqua;
+  color: aqua; 
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.intro .button:hover {
+  background-color: aqua; 
+  color: black; 
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: black;
   background-color: aqua;
+}
+.skills h2 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills li {
+  background-color: #0074D9; 
+  color: white;
+  padding: 25px 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.professional, .technical {
+  flex: 1;
+}
+
+.education {
+  background-color: black;
+  color: white; 
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.education h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+.education h1 span {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.education h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+  margin-top: 50px;
+  background-color: aqua;
+  color: black;
+}
+.education h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.works {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+.works h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #0074D9;
+  margin: 50px;
+}
+.works h2 {
+  font-size: 1.8rem;
+  margin: 20px 0 10px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+.works ul {
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.works li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.works li::before {
+  content: "▹"; 
+  margin-right: 10px;
+  color: #2ECC40; 
+}
+
+.welcome-section {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+.welcome-section h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.welcome-section p {
+  font-size: 1.2rem;
+  margin: 20px 0;
 }
