@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Intro = () => {
   return (
     <>
@@ -9,7 +11,7 @@ const Intro = () => {
               <h3>I bring a diverse set of skills and experiences to the table.</h3>
         </div>
         <div class="buttons">
-            <button class="button">See my projects</button>
+            <Link to="/projects"><button class="button">See my projects</button></Link>
             <button class="button">Know more about me</button>
         </div>
     </section>
