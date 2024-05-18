@@ -11,10 +11,10 @@ const Header = () => {
           <Nav.Link href='/projects'>Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Videos</Nav.Link>
+          <Nav.Link href="/videos">Videos</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-3">About</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-4">Contact</Nav.Link>
