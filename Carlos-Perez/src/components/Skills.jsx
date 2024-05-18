@@ -37,9 +37,10 @@ const Skills = () => {
         <li>Prisma</li>
         <li>PostgreSQL</li>
         <li>middleware</li>
+        <li>algorithms</li>
         <li>Kaboom.js</li>
         <li>Unity</li>
-        <li>Unreal Engine</li>
+        <li>Spline</li>
         <li>Visual Design</li>
         <li>UI</li>
         <li>Machine Learning</li>

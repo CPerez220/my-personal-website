@@ -5,16 +5,16 @@ const Footer = () => {
     <>
     <Nav className="justify-content-center" activeKey="/">
         <Nav.Item>
-          <Nav.Link href="/">Top</Nav.Link>
+          <Nav.Link href="#intro">Intro</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Skills</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Education</Nav.Link>
+          <Nav.Link href="#education">Education</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-3">Experience</Nav.Link>
+          <Nav.Link href="#experience">Experience</Nav.Link>
         </Nav.Item>
       </Nav>
     </>

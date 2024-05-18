@@ -12,7 +12,7 @@ const Intro = () => {
         </div>
         <div class="buttons">
             <Link to="/projects"><button class="button">See my projects</button></Link>
-            <button class="button">Know more about me</button>
+            <a href="#skills"><button className="button">See my skills</button></a>
         </div>
     </section>
     </>
