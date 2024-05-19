@@ -5,6 +5,7 @@ import Circulo from "../images/circulo-home-page.png"
 const MyProjects = () => {
   return(
     <>
+    <h1 className='projects'>MY PROJECTS</h1>
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
     <Card style={{ width: "45%", boxShadow: '0 4px 6px rgba(0, 255, 255, 0.5)' }}>
       <Card.Img variant="top" src={Circulo} />
@@ -26,7 +27,7 @@ const MyProjects = () => {
     </Card>
 
     </div>
-    <h1>Anticipate more exciting projects! I’m currently collaborating with my team on a captivating video game for my capstone project. Additionally, we’re developing a mobile version of ‘Circulo.’ Beyond that, I’ve been actively engaged in personal projects, exploring cutting-edge technologies. Stay tuned as I begin sharing some of my past college projects as well.</h1>
+    <h1 className='title'>Anticipate more exciting projects! I’m currently collaborating with my team on a captivating video game for my capstone project. Additionally, we’re developing a mobile version of ‘Circulo.’ Beyond that, I’ve been actively engaged in personal projects, exploring cutting-edge technologies. Stay tuned as I begin sharing some of my past college projects as well.</h1>
     </>
   )
 }

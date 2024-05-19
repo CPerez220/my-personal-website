@@ -11,11 +11,13 @@ const ProjectsBody = () => {
               <h3>For a broader view of my work, feel free to explore my GitHub repository.</h3>
         </div>
         <div class="buttons">
-            <button class="button">Go to Projects</button>
-            <button class="button">Go to my Github</button>
+          <a href="#myprojects"><button className="button">Go to my Projects</button></a>
+          <a href="#skills"><button className="button">Go to my Github</button></a>
         </div>
     </section>
-    <MyProjects/>
+    <section id="myprojects">
+      <MyProjects/>
+    </section>
     </>
   )
 }
